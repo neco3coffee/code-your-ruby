@@ -1,3 +1,4 @@
+input = gets
 def fizz_buzz(number)
   if number % 15 == 0
     "Fizz Buzz"
@@ -9,3 +10,4 @@ def fizz_buzz(number)
     number.to_s 
   end
 end
+puts fizz_buzz(input)
